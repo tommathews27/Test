@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-"""
-12/03/2014: Initial coding of adb modules commonly used
+"""12/03/2014: Initial coding of adb modules commonly used
 03/12/2015: Minor changes to make return values consistent and remove unnecessary 'async'
             argument to cmdAdb
 06/22/2015: Addition of few more functions
@@ -20,7 +19,11 @@ __author__ = "Janifer Patterson-Noble & Tom Mathews"
 __modDate__ = "04/18/2016"
 __description__ = "Common adb routines which are have been utilized in multiple test cases"
 
-
+class (object):
+  __name = 'firstChange'
+  
+  
+  
 class ADB(object):
     __adb_path = None
     __error = None
