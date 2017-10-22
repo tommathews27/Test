@@ -15,6 +15,8 @@ import os
 import re
 import time
 
+__firstInput = 'sharon'
+
 __author__ = "Janifer Patterson-Noble & Tom Mathews"
 __modDate__ = "04/18/2016"
 __description__ = "Common adb routines which are have been utilized in multiple test cases"
